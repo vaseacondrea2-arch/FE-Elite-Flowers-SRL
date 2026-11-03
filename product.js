@@ -10,7 +10,12 @@ const productsList = [
     { id: 9, name: "Gypsophila (Floarea Miresei)", price: 60, img: "images/buchet-regal.png", desc: "Nor fin și vaporos din gypsophila (floarea miresei) albă, ce creează un efect aerisit și de basm." },
     { id: 10, name: "Trandafiri Piersică", price: 90, img: "images/safir-floral.png", desc: "Trandafiri într-o nuanță caldă de piersică/crem, perfecți pentru a exprima recunoștința și admirația." },
     { id: 11, name: "Crizanteme Violet", price: 70, img: "images/natura-pura.png", desc: "Crizanteme mov/lila bogate, ce oferă o rezistență excelentă și un aspect plin de culoare." },
-    { id: 12, name: "Crini Albi", price: 200, img: "images/esenta-albastra.png", desc: "Crini albi maiestuoși și rafinați, recunoscuți pentru eleganța lor regală și parfumul inconfundabil." }
+    { id: 12, name: "Crini Albi", price: 200, img: "images/esenta-albastra.png", desc: "Crini albi maiestuoși și rafinați, recunoscuți pentru eleganța lor regală și parfumul inconfundabil." },
+
+    // OFERTE DE TOAMNĂ - INTEGRATE (ACELEAȘI CA ÎN SHOP.JS)
+    { id: 13, name: "Ofertă Toamnă: Crizanteme", price: 51, img: "images/oferta-crizanteme.jpg", desc: "Reducere de toamnă 15% (preț vechi: 60 MDL). Culori care îți înviorează toamna! Crizanteme în ghiveci, proaspete și rezistente. Valabil: 1-30 noiembrie 2026." },
+    { id: 14, name: "Ofertă Toamnă: Crini Albi", price: 170, img: "images/oferta-crini.png", desc: "Reducere de toamnă -15% (preț vechi: 200 MDL). Eleganță în culorile anotimpului. Un buchet, o emoție, o poveste." },
+    { id: 15, name: "Ofertă Toamnă: Gerbera Roz", price: 42.5, img: "images/oferta-gerbera.png", desc: "Reducere de toamnă -15% (preț vechi: 50 MDL). Eleganță în culorile anotimpului. Un buchet, o emoție, o poveste." }
 ];
 
 const urlParams = new URLSearchParams(window.location.search);

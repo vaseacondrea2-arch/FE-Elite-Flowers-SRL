@@ -372,12 +372,15 @@ nav ul {
     width: 100%;
     height: 250px;
     overflow: hidden;
+    background-color: var(--white); /* Fundal alb pentru imagini */
 }
 
+/* AICI E MODIFICAREA PENTRU POSTERELE DIN SHOP */
 .product-img-wrapper img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain; /* S-a modificat din cover în contain ca să nu mai taie posterele */
+    background-color: var(--white);
     transition: transform 0.5s ease;
 }
 
@@ -576,11 +579,11 @@ nav ul {
 }
 
 /* =========================================================
-   STILURI PAGINĂ COȘ (CART.HTML) - FĂRĂ CONFLICTE
+   STILURI PAGINĂ COȘ (CART.HTML)
    ========================================================= */
 
 .cart-section {
-    padding-top: 160px; /* Previne acoperirea de către header-ul fixed */
+    padding-top: 160px;
     padding-bottom: 80px;
     padding-left: 5%;
     padding-right: 5%;
@@ -1010,12 +1013,15 @@ nav ul {
     overflow: hidden;
     margin-bottom: 20px;
     border: 1px solid var(--light-blue);
+    background-color: var(--white); /* Fundal alb */
 }
 
+/* AICI E MODIFICAREA PENTRU POSTERUL MARE DIN PAGINA PRODUSULUI */
 .main-image-wrapper img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain; /* S-a modificat din cover în contain */
+    background-color: var(--white);
 }
 
 .product-details-info {
